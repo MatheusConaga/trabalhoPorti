@@ -1,0 +1,206 @@
+body {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e5e7eb;
+}
+
+.artsSub {
+    text-align: center;
+    color: #071853;
+}
+
+header {
+    color: #fff;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+
+nav {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1,
+.logo a {
+    margin: 0;
+    color: #0182B0;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Istok Web, arial, sans-serif;
+}
+
+.botoes button,
+form button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.botoes-e-formulario {
+    display: flex;
+    align-items: center;
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
+}
+
+.ent,
+.env {
+    background-color: #0182B0;
+}
+
+.art {
+    background-color: #F8C304;
+}
+
+.cad,
+.edt {
+    background-color: red;
+}
+
+.mot {
+    font-family: Istok Web, arial, sans-serif;
+    font-weight: bold;
+    padding-top: 5%;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 40px;
+    width: 40%;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    background-color: #0182B0;
+    color: #fff;
+}
+
+.inf-art,
+.inf-foto {
+    width: 30%;
+    height: auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+.inf-foto img {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+    border: 5px solid #0182B0;
+}
+
+.imgs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imgs div {
+    width: 80%;
+    max-width: 400px;
+    margin: 10px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.imgs img {
+    opacity: 0.9;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.mona {
+    padding-top: 40px;
+}
+
+.envImg {
+    max-width: 400px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 0 auto; 
+}
+
+form label,
+form input,
+form textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.obras-de-arte-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.obra-de-arte {
+    text-align: center;
+    margin: 10px;
+}
+
+.obra-de-arte img {
+    width: 100%;
+    max-width: 300px;
+    border: 10px solid #0182B0;
+    border-radius: 10px;
+}
+
+.obra-de-arte h3 {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.obra-de-arte p {
+    margin: 10px 0;
+}
+
+.artes {
+    text-align: center;
+    margin: 20px auto; 
+}
+
+.artes h2 {
+    text-align: center; 
+}
+
+.artes form {
+    margin-top: 20px; 
+}
+
+.artes form button {
+    margin-top: 10px; 
+}
